@@ -1,10 +1,14 @@
 *{
     box-sizing: border-box;
+    
 }
 
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Grape Nuts', cursive;
+    font-weight: 700;
+
 }
 
 .navbar{
@@ -113,11 +117,13 @@ textarea{
 
 
 .ticket-cont{
+    
     height: 12rem;
     width: 15rem;
 }
 
 .ticket-color{
+    border-top-left-radius: 5rem;
     height: 1rem;
     /* background-color: #3d3d3d; */
 }
@@ -125,6 +131,8 @@ textarea{
 .ticket-id{
     height: 2rem;
     background-color: red;
+    text-align: center;
+    font-size:150%;
 }
 
 .task-area{
